@@ -1,11 +1,11 @@
 # Glacier-DEM-coregistration-and-MB
 
-This repository contains a jupyter-notebook tutorial for: 
-1. Downloading SRTM DEMs from NASA's earthaccess
-2. Co-registration additional DEMs with SRTM, following the Nuth and Kääb (2011) workflow
-3. Clipping co-registered DEMs to the glacier area polygons of your choice
-4. Differencing DEMs
-5. Computing mean annual glacier mass balance 
+This repository contains jupyter-notebook tutorials for: 
+01. Downloading SRTM DEMs from NASA's earthaccess
+02. Co-registration additional DEMs with SRTM, following the Nuth and Kääb (2011) workflow
+03. Clipping co-registered DEMs to the glacier area polygons of your choice and differencing DEMs to produce elevation change
+04. Analyzing hydroclimatic change as it relates to mass balance trends 
+05. Geospatial analysis of glacier mass balance.  
 
 Example DEMs (Instituto Geográfico Militar, 1954; SRTM, 2000; UAV 2024) and glacier polyons (Dirección General de Aguas 2014; 2019) are provided for the Nevados de Chillán Volcanic complex in Ñuble, Chile 
 
