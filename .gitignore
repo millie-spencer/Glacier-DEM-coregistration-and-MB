@@ -5,3 +5,8 @@
 /Users/milliespencer/Glacier-DEM-coregistration-and-MB/aligned_dems
 example_data_Nevados/
 srtm_data/
+src/
+src/demcoreg
+src/pygeotools
+src/imview
+src/

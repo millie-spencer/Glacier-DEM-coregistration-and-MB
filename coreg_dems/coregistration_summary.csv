@@ -1,0 +1,4 @@
+DEM,reference,method,stable_pixels,n_pts_fit,shift_x_m,shift_y_m,shift_z_m,NMAD_before_m,NMAD_after_m,NMAD_improvement_m,flag
+IGM_1954,SRTM_2000,nuthkaab,327,327,-6.882,-11.367,1.588,7.522,7.312,0.21,ok
+CerroBlanco_2024,SRTM_2000,nuthkaab,1011,96,108.699,-18.856,-43.304,8.802,35.344,-26.542,diverged_large_shift
+LasTermas_2024,SRTM_2000,nuthkaab,327,194,-7.842,3.202,-32.969,10.471,10.356,0.114,ok
