@@ -10,3 +10,17 @@ src/demcoreg
 src/pygeotools
 src/imview
 src/
+
+# Large raster outputs — regenerate by running notebooks
+aligned_dems/*.tif
+aligned_dems/*.png
+coreg_dems/*.tif
+coreg_dems/*.png
+coreg_dems_xdem/*.tif
+coreg_dems_xdem/*.png
+differenced_dems/*.tif
+figures/
+results/*.tif
+aster_browse_preview.png
+example_data_Nevados/Nevados_DEMs/ASTER_*.tif
+example_data_Nevados/Nevados_DEMs/Pleiades_2025.tif
