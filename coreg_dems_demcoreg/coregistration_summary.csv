@@ -1,0 +1,6 @@
+DEM,reference,method,stable_pixels,median_dh_m,NMAD_m
+IGM_1954,SRTM_2000,demcoreg_nuth,189192,5.959,25.716
+CerroBlanco_2024,SRTM_2000,demcoreg_nuth,1225,-2.191,11.862
+LasTermas_2024,SRTM_2000,demcoreg_nuth,12311,0.002,4.804
+Pleiades_2025,SRTM_2000,demcoreg_nuth,251078,5.116,17.317
+SRTM_2000,SRTM_2000,demcoreg_nuth,11053716,0.0,0.0
