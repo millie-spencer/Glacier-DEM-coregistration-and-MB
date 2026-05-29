@@ -3,36 +3,64 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python=3.10  # Specify your preferred Python version
+  - python=3.10
   - pip
+  # Core scientific
   - numpy
   - pandas
+  - scipy
+  - numba
+  # Geospatial
   - geopandas
   - gdal
   - rasterio
   - pyproj
   - rioxarray
   - xarray
-  - folium
   - fiona
-  - matplotlib
   - shapely
+  - contextily          # basemap tiles for figures
+  - geopy               # distance/geodesic calculations
+  - requests            # HTTP requests (ASTER browse images)
+  - pillow              # PIL.Image (ASTER browse images)
+  - paramiko            # SFTP for Hugonnet DEM download
+  # Statistics & ML
+  - statsmodels         # acf, durbin-watson
+  - scikit-learn        # LinearRegression (geospatial analysis)
+  - scikit-image>=0.19,<0.20.0
+  - seaborn
+  # Spatial statistics
+  - libpysal            # spatial weights for Moran's I
+  - esda                # Moran's I, spatial autocorrelation
+  # Visualization & plotting
+  - matplotlib
+  - folium
   - h5py
   - opencv
-  - scikit-image>=0.19,<0.20.0  # Adjust version as needed
-  - scipy
-  - descartes
-  - numba
+  # Jupyter
   - jupyter
-  - sphinx-argparse
-  - pyvips
-  - ipykernel  # Allows kernel registration for VSCode/Jupyter
+  - ipykernel
+  # Utilities
   - wget
+  - pyvips
+  - sphinx-argparse
+  - descartes
   - pip:
+      # DEM processing
       - llc
       - pybob
-      - earthaccess
-      - rasterstats
-      - git+https://github.com/dshean/pygeotools.git # these links correspond to the packages necessary for DEM coregistration
+      - git+https://github.com/dshean/pygeotools.git
       - git+https://github.com/dshean/demcoreg.git
       - git+https://github.com/dshean/imview.git
+      # xDEM uncertainty pipeline (Notebooks 1-3)
+      - xdem==0.2.2
+      - geoutils
+      - scikit-gstat
+      # Remote sensing / data access
+      - earthaccess
+      - rasterstats
+      # Hydroclimate analysis (Notebook 4)
+      - pymannkendall     # Sen's slope + Mann-Kendall
+      - piecewise-regression  # segmented regression (replaces R ecp)
+      # Geospatial analysis (Notebook 5)
+      # esda and libpysal above cover Moran's I
