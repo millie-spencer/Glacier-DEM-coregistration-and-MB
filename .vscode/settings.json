@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "/Users/milliespencer/miniconda3/envs/glacier-env/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.venvPath": "",
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda"
+}
