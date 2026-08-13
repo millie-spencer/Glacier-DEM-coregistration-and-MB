@@ -1,5 +1,6 @@
-DEM,reference,method,stable_pixels,n_pts_fit,shift_x_m,shift_y_m,shift_z_m,NMAD_before_m,NMAD_after_m,NMAD_improvement_m,flag
-IGM_1954,SRTM_2000,nuthkaab,189192,189192,-42.904,10.913,-17.236,32.994,27.823,5.171,ok
-CerroBlanco_2024,SRTM_2000,nuthkaab,162,162,68.276,-3.293,16.552,11.184,25.439,-14.256,diverged_large_shift
-LasTermas_2024,SRTM_2000,nuthkaab,9132,9132,-3.899,6.635,-3.879,5.303,4.574,0.729,ok
-Pleiades_2025,SRTM_2000,nuthkaab,235026,235026,-18.486,-30.415,-15.609,24.797,47.91,-23.114,nmad_degraded
+DEM,reference,method,stable_pixels,pre_median_dh,pre_NMAD_m,post_median_dh,post_NMAD_m
+IGM_1954,SRTM_2000,xdem_nuthkaab_verticalshift,38941,-4.439,13.873,0.154,11.304
+CerroBlanco_2024,SRTM_2000,xdem_nuthkaab_verticalshift,1225,6.457,11.862,0.0,11.862
+LasTermas_2024,SRTM_2000,xdem_nuthkaab_verticalshift,12311,-3.806,5.593,0.0,4.861
+Pleiades_2025,SRTM_2000,xdem_nuthkaab_verticalshift,54806,1.49,3.838,0.0,3.817
+ASTER_20180301,SRTM_2000,xdem_nuthkaab_verticalshift,7048792,5.247,6.276,0.189,5.829
