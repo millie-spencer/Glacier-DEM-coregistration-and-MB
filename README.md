@@ -7,8 +7,8 @@ The pipeline processes multi-source DEMs spanning 1954–2025 to produce geodeti
 ## Notebooks
 
 1. **DEM preparation and alignment** — SRTM download, geoid correction, reprojection to common grid
-2. **DEM co-registration** — Nuth & Kääb (2011) via demcoreg; stable terrain masking using the union of 1975, 2000, and 2019 glacier inventories
-3. **DEM differencing and uncertainty propagation** — elevation change, volume change, and mass balance using a time-weighted mean area approach (Cogley et al., 2011); heteroscedastic per-pixel error modelling (xDEM; Hugonnet et al., 2022) and spatial uncertainty propagation (Rolstad et al., 2009)
+2. **DEM co-registration** — Nuth & Kääb (2011) via xDEM; manually digitized validity polygons for IGM and Pléiades DEMs to remove border artifacts; stable terrain masking using the union of 1975, 2000, and 2019 glacier inventories
+3. **DEM differencing and uncertainty propagation** — elevation change, volume change, and mass balance using a mean area approach following Zemp et al. (2019); intersection-based spatial join for glacier area lookup handling fragmentation and disappearance; heteroscedastic per-pixel error modelling (xDEM; Hugonnet et al., 2022) and spatial uncertainty propagation (Rolstad et al., 2009)
 4. **Hydroclimate analysis** — Sen's slope and Mann–Kendall trend tests for annual and summertime (JFM) precipitation, temperature, and streamflow; E-Divisive changepoint detection and segmented regression
 5. **Geospatial analysis** — pixel-level and glacier-level correlations between elevation change and topographic variables (elevation, slope, aspect); outline sensitivity analysis; hypsometric dH analysis; and spatial autocorrelation (Global and Local Moran's I / LISA)
 
