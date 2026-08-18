@@ -34,7 +34,7 @@ Note: The ASTER DEM is a bias-corrected 30 m product from Hugonnet et al. (2021)
 
 If you use this code, please cite:
 
-> Spencer, M. (2026). millie-spencer/Seven-Decades-Glacier-Loss-Nevados-Chillan: v2.0.0 [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21419070
+> Spencer, M. (2026). millie-spencer/Seven-Decades-Glacier-Loss-Nevados-Chillan: v2.0.1 [Computer software]. [https://zenodo.org/records/21987345](https://doi.org/10.5281/zenodo.21987345). 
 
 Associated manuscript:
 
